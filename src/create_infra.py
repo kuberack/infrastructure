@@ -61,7 +61,7 @@ instance_config = {
             'boot': True,
             'autoDelete': True,
             'initializeParams': {
-                'sourceImage': source_disk_image,
+                'sourceImage': 'projects/ubuntu-os-cloud/global/images/family/ubuntu-1804-lts',
                 'diskSizeGb': 100,
             }
         }

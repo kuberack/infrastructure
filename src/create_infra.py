@@ -75,6 +75,10 @@ instance_config = {
                 # ssh-keys
                 'key': 'ssh-keys',
                 'value': None
+            },
+            {
+                "key": "startup-script-url",
+                "value": "gs://platform-infrastructure/k8s_pkg_install.sh"
             }
         ]
     },
